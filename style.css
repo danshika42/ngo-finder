@@ -52,12 +52,12 @@ li{
 .main-menu a ,.nav-bar a h2{
     color: #fff;
 }
-.nav-bar img{
+.nav-bar a{
     position: relative;
 }
 .green-btn{
     color: #fff;
-    padding: 11px 31px;
+    padding: 12px 31px;
     background:rgb(3, 75, 3);
     border-color: white;
     font-size: 0.91rem;
@@ -66,7 +66,7 @@ li{
 }
 .red-btn{
     color: #fff;
-    padding: 11px 31px;
+    padding: 12px 31px;
     background:#be3144;
     border-color: #be3144;
     font-size: .91rem;
@@ -81,11 +81,11 @@ li{
     overflow: hidden;
 }
 .showcase{
-    width: 60%;
+    width: 64%;
     text-align: center;
     margin: auto;
     color:#fff;
-    height: 20rem;
+    height: 23rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,9 +156,7 @@ li{
     right:8%;
 }
 .container-slide{
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
+    margin-bottom: 50px;
     position: relative;
 }
 .arrow-prev i:hover,.arrow-next i:hover{
@@ -168,7 +166,7 @@ li{
 
 .container-slide h1{
     text-align: center;
-    margin: 30px;
+    margin-top: 40px;
 }
 .image{
     overflow: hidden;
@@ -186,6 +184,7 @@ li{
     background: url(img/about.jpg) no-repeat center center/cover;
     position: relative;
     overflow: hidden;
+    height: 23rem;
 }
 .about{
     width: 76%;
@@ -206,12 +205,13 @@ li{
 .about h2{
     margin-top: 50px;
 }
-.about button{
+.about-btn{
     padding: 10px 23px;
     border: none;
     background: rgb(3, 209, 3);
     color: #fff;
     font-size: 1.1rem;
+    border-radius: .35rem;
 }
 .about::after{
     content: '';
@@ -222,4 +222,146 @@ li{
     top: 0;
     left: 0;
     opacity: 0.6;
+}
+/* subs  */
+
+.subscribe{
+    margin-top: 50px;
+    height: 22rem;
+    background: url(img/subs.jpg) no-repeat center center/cover;
+    position: relative;
+    overflow: hidden;
+}
+.upper-content{
+    width: 76%;
+    margin: auto;
+    color:#fff;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: -1;
+}
+.subs-content p{
+    margin: 10px 0 20px 0;
+    
+}
+.subs-content{
+  z-index: 20;
+  font-size: 1.1rem;
+}
+.upper-content::after{
+    content: '';
+    background-color:rgb(127, 218, 127);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+}
+.subs-content input{
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 10px 19px;
+    width: 67%;
+    background: none;
+    border: none;
+    margin-right: -11px;
+    border-bottom: 2px solid #fff;
+}
+.subs-content label{
+    padding: 14px 29px;
+}
+.ipt::placeholder { 
+    color: #fff;  
+}
+
+/* contact */
+.contact-btn{
+    padding: 10px 20px;
+    border: none;
+    background: rgb(3, 209, 3);
+    color: #fff;
+    font-size: 1.1rem;
+    border-radius: .35rem;
+}
+.contact-content{
+    background: rgb(127, 218, 127);
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    border-radius: 0.51rem;
+}
+.contact-wrapper h1{
+    margin-bottom: 20px;
+}
+.contact-wrapper{
+    margin-top: 50px;
+    text-align: center;
+}
+#phone-no ,#email-contact{
+    width: 87%;
+    padding: 12px 30px;
+    border-radius: 0.51rem;   
+}
+.contact-content input{
+   margin: 10px 0;
+   border: 1px solid rgb(90, 90, 90);
+
+}
+#first-name , #last-name{
+    width: 43%;
+    padding: 12px 30px;
+    border-radius: 0.51rem; 
+}
+#message{
+    border-radius: 0.51rem; 
+    width: 87%;
+    padding: 12px 30px;
+}
+.contact-wrapper form{
+    padding: 35px 0;
+}
+
+/* footer */
+.footer-container{
+    margin-top: 30px;
+    background-color: rgb(3, 75, 3);
+    font-size: 0.9rem;
+    
+}
+footer a{
+    color: #fff;
+}
+.footer-wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+aside{
+    
+    width: 51%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.media-wrapper a,.media-wrapper p,.media-handle{
+    color: #fff;
+}
+.media-handle{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+}
+.media-wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
 }
